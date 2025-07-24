@@ -27,7 +27,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6933539434))
+OWNER_ID = int(getenv("OWNER_ID", 8142914021))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -37,15 +37,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Yadavperson/RiteshMusic1",
+    "https://github.com/Yadavperson/Anabela",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AuraVisual")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HeavenChatGroup")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+NPO0XrGK3kM1Mzc9")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AnneBella_gc")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
