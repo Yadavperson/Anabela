@@ -15,7 +15,7 @@ def start_panel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url="https://github.com/Yadavperson/RiteshMusic1"
+                url="https://github.com/Yadavperson/Anabela"
             )
         ]
     ]
